@@ -1,1 +1,1 @@
-# cli-for-bio
+# bio-cli
