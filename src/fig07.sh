@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 #
-# Copyright (C) 2018 Magda Mielczarek & Jarosław Stańczyk
-# magda.a.mielczarek@gmail.com, jaroslaw.stanczyk@upwr.edu.pl
+# Copyright (C) 2019 Mielczarek M., Stańczyk J., Szyda J., Guldbrandtsen B.
 #
 # source code of example from Fig.7
 
-gzip Mus_musculus.GRCm38.dna.*fa.gz
+gunzip Mus_musculus.GRCm38.dna.*fa.gz
 
 # eof.
