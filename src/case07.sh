@@ -5,6 +5,10 @@
 #
 # source code of example from Case 7
 
-gunzip Mus_musculus.GRCm38.dna.*fa.gz
+echo
+echo "unpacking all files matching the pattern (it may take a while)"
+echo "works if files have been previously downloaded -- see case06.sh"
+echo
+gunzip Mus_musculus.GRCm38.dna.chromosome.*fa.gz
 
 # eof.

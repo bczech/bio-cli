@@ -1,0 +1,9 @@
+#
+# .gitignore
+
+exemplary.data/1000GENOMES-phase_3.100000.edited.vep
+src/Mus_musculus.GRCm38.dna.chromosome.*.fa*
+src/M.musculus.GRCm38.ref.*
+src/1000GENOMES-phase_3.100000.*
+
+# eof.

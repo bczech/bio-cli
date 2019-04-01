@@ -5,6 +5,9 @@
 #
 # source code of example from Case 1
 
+echo
+echo "the first five lines of the file ../exemplary.data/Ursus_Phylogeny.fasta"
+echo
 head -5 ../exemplary.data/Ursus_Phylogeny.fasta
 
 # eof.
