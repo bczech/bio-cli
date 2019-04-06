@@ -6,7 +6,7 @@
 # source code of example from Case 5
 
 echo
-echo "displaying a manulal for the ls command"
+echo "displaying a system's manual page for the ls command"
 echo
 man ls
 
