@@ -3,11 +3,16 @@
 # Copyright (C) 2019 Mielczarek M., Stanczyk J., Szyda J., Guldbrandtsen B.
 # "Extraordinary command line: basic data editing tools for biologist dealing with sequence data"
 #
-# source code of example from Case 12
+# source code of example from Case 10
 
-grep -v "^#" ../exemplary.data/1000GENOMES-phase_3.100000.vcf |
-	grep "SNV" |
-	awk '{print $1,$2,$2,$4"/"$5}' > 1000GENOMES-phase_3.100000.edited.vcf
-head -n 5 1000GENOMES-phase_3.100000.edited.vcf
+echo
+echo "merging individual files (it may take a while)"
+echo "works if files have been previously downloaded and unpacked -- see case06.sh and case07.sh"
+echo
+
+for chr in {1..19} X Y
+do
+	cat Mus_musculus.GRCm38.dna.chromosome.$chr.fa
+done > M.musculus.GRCm38.ref.num.order.fa
 
 # eof.

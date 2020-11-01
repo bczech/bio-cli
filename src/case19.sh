@@ -3,11 +3,8 @@
 # Copyright (C) 2020 Mielczarek M., Stanczyk J., Szyda J., Czech B., Guldbrandtsen B.
 # "Extraordinary command line: basic data editing tools for biologist dealing with sequence data"
 #
-# source code of example from Case 13
+# source code of example from Case 19
 
-echo
-echo "searching for lines containing a character > in a file M.musculus.GRCm38.ref.num.order.fa"
-echo
-grep ">" M.musculus.GRCm38.ref.num.order.fa
+awk 'NR%4==2 {reads++; readlen += length($0)} END {print reads; print readlen/reads}' SRR5078057_1.fastq
 
 # eof.
