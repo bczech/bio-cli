@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #
-# Copyright (C) 2019 Mielczarek M., Stanczyk J., Szyda J., Guldbrandtsen B.
+# Copyright (C) 2020 Mielczarek M., Stanczyk J., Szyda J., Czech B., Guldbrandtsen B.
 # "Extraordinary command line: basic data editing tools for biologist dealing with sequence data"
 #
-# source code of example from Case 4
+# source code of example from Case 5
 
 echo
 echo "decompress ../exemplary.data/1000GENOMES-phase_3.100000.edited.vep.gz"

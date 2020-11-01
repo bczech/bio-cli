@@ -5,6 +5,8 @@
 #
 # source code of example from Case 22
 
-sed -n '1~4s/^@/>/p; 2~4p' SRR5078057_1.fastq > SRR5078057_1.fasta
-head -n 6 SRR5078057_1.fasta
+cat genes.txt
+cat polymorphism_in_genes.txt
+awk 'BEGIN{OFS="\t"}; NR==FNR{k[$1]=$2;next}; {$5=k[$5]; print}' genes.txt polymorphism_in_genes.txt
+
 # eof.
